@@ -1,0 +1,8 @@
+- name: Forsíða
+  link: /
+- name: Hljómsveitir
+  link: /hljomsveitir.html
+- name: Miðar
+  link: /skraning.html
+- name: Um Steininn
+  link: /umSteininn.html
