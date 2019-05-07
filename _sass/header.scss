@@ -1,0 +1,22 @@
+.haus{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    img{
+        height: 5.5em;
+        width: 5.5em;
+    }
+    p{
+        font-size: 1.8em;
+        padding-right: 10px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: blue;
+        }
+    }
+}
