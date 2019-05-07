@@ -1,0 +1,14 @@
+---
+layout: default
+title: Forsida
+---
+
+<ul>
+    {% for band in _bands %}
+      <li>
+        <h2><a href="{{ band.url }}">{{ band.title }}</a></h2>
+        <p>{{ band.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+  
