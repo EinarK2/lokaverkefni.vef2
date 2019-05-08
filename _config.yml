@@ -1,2 +1,6 @@
 baseurl: "/steinninn"
 url: "https://einark2.github.io/steinninn/"
+
+collections:
+  bands:
+    output: true

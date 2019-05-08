@@ -2,13 +2,14 @@
 layout: default
 title: Forsida
 ---
+<h1>Hljómsveitir:</h1>
 
 <ul>
-    {% for band in _bands %}
-      <li>
-        <h2><a href="{{ band.url }}">{{ band.title }}</a></h2>
-        <p>{{ band.excerpt }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for band in site.bands %}
+    <li>
+      <h2><a href="{{ band.url }}">{{ band.name }}</a></h2>
+      <p>{{ band.excerpt | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
   
