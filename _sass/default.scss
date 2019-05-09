@@ -5,6 +5,16 @@ body{
     main{
         max-width: 960px;
         margin: 0 auto;
-        padding: 5em;
+        padding-top: 10px;
+        padding-bottom: 10px;  
+    }
+}
+
+.tviskipt{
+    display: grid;
+    grid-template-columns: 33% 66%;
+    div{
+        border: 1px solid black;
+        color: red;
     }
 }

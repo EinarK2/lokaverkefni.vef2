@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<main class="tviskipt">
+    <div>
+        {% if page.include %}
+            {% include {{ page.include }} %}
+        {% endif %}
+    </div>
+    <div>
+        {{ content }}
+    </div>
+</main>

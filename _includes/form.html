@@ -1,0 +1,48 @@
+<form class="form" action="#" method="GET">
+    <legend>Miðar</legend>
+    <label id="Nafn">
+        Nafn:
+        <input type="text"
+            name="Nafn"
+            placeholder="Jón Hallfreðsson"
+            title="Vinsamlegast skrifaðu inn nafn"
+            required>
+    </label>
+    <label>
+        Símanúmer:
+        <input type="tel"
+            pattern="[0-9]{3} [0-9]{4}"
+            name="Símanúmer"
+            placeholder="123 4567"
+            autofocus
+            title="Vinsamlegast skráðu inn símanúmer"
+            required>
+    </label>
+    <label>
+        Netfang:
+        <input type="email" 
+            name="Netfang"
+            placeholder="gabrielb@netfang.com"
+            title="Vinsamlegast skrifaðu inn netfang"
+            required>
+    </label>
+    <label>
+        Kennitala:
+        <input type="number"
+            name="Kennitala"
+            placeholder="1234567890"
+            title="Vinsamlegast skrifaðu inn kennitölu"
+            required>
+    </label>
+    <label>
+        Dagsetning:
+        <select nafn="Dagsetning">
+            <option value="5. Maí" selected>5. Maí, 2019</option>
+            <option value="13. Maí">13. Maí, 2019</option>
+            <option value="20. Maí">20. Maí, 2019</option>
+        </select>
+    </label>
+    <button>
+        Panta
+    </button>
+</form>

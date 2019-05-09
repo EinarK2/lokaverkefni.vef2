@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>Hljómsveit</th>
+        <th>Tími</th>
+    </tr>
+    {% for band in site.bands %}
+        <tr>
+            <th> {{ band.name }} </th>
+            <th> {{ band.timi }} </th>
+        </tr>
+    {% endfor %}
+</table>
