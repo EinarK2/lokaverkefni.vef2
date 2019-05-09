@@ -6,6 +6,9 @@ layout: default
         {% if page.include %}
             {% include {{ page.include }} %}
         {% endif %}
+        {% if page.mynd %}
+            <img src="/steinninn/assets/pictures/{{ page.mynd }}.jpg" alt="mynd" height="220px" width="310px">
+        {% endif %}
     </div>
     <div>
         {{ content }}
