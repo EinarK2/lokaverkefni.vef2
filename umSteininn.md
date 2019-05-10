@@ -1,5 +1,6 @@
 ---
-layout: tviskipt
+layout: default
 title: Forsida
 ---
-# Þetta er um steininn síðann
+# Steinninn
+Steinninn er íslenskt útgáfufyrirtæki sem á rætur sínar á ísafirði. Steinninn sérhæfir sig ekki í neinu genre og því gefum við út mjög fjölbreyta tónlist.

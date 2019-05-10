@@ -1,11 +1,11 @@
-<table>
+<table class="dagskra">
     <tr>
-        <th>Hljómsveit</th>
+        <th>Hljómsveitir</th>
         <th>Tími</th>
     </tr>
     {% for band in site.bands %}
         <tr>
-            <th> {{ band.name }} </th>
+            <th><a href="/steinninn/{{ band.url }}"> {{ band.name }} </a></th>
             <th> {{ band.timi }} </th>
         </tr>
     {% endfor %}
