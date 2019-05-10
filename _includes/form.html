@@ -1,5 +1,5 @@
+<h2>Miðakaup á Útgáfutónleika Steinsins í Laugardalshöll.</h2>
 <form class="form" action="#" method="GET">
-    <legend>Miðar</legend>
     <label id="Nafn">
         Nafn:
         <input type="text"
@@ -8,7 +8,7 @@
             title="Vinsamlegast skrifaðu inn nafn"
             required>
     </label>
-    <label>
+    <label id="Simanumer">
         Símanúmer:
         <input type="tel"
             pattern="[0-9]{3} [0-9]{4}"
@@ -18,7 +18,7 @@
             title="Vinsamlegast skráðu inn símanúmer"
             required>
     </label>
-    <label>
+    <label id ="Email">
         Netfang:
         <input type="email" 
             name="Netfang"
@@ -26,7 +26,7 @@
             title="Vinsamlegast skrifaðu inn netfang"
             required>
     </label>
-    <label>
+    <label id="Kennitala">
         Kennitala:
         <input type="number"
             name="Kennitala"
@@ -34,7 +34,7 @@
             title="Vinsamlegast skrifaðu inn kennitölu"
             required>
     </label>
-    <label>
+    <label id="Dagsetning">
         Dagsetning:
         <select nafn="Dagsetning">
             <option value="5. Maí" selected>5. Maí, 2019</option>
@@ -42,7 +42,15 @@
             <option value="20. Maí">20. Maí, 2019</option>
         </select>
     </label>
-    <button>
-        Panta
+    <label id="Heimilisfang">
+        Heimilisfang:
+        <input type="text"
+               name="Heimlisfang"
+               placeholder="Faxafen 13"
+               title="Vinsamlegast skrifaðu inn heimilisfang"
+               required>
+    </label>
+    <button id="Takki">
+        Panta Miða
     </button>
 </form>
