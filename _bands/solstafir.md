@@ -3,6 +3,7 @@ name: "Sólstafir"
 layout: tviskipt
 timi: "20:00"
 mynd: solstafir
+myndband: https://www.youtube.com/embed/A6j7mUxGz20
 ---
 
 Sólstafir er íslensk Þungarokkshljómsveit sem stofnuð var árið 1995. 

@@ -3,6 +3,7 @@ name: "Skálmöld"
 layout: tviskipt
 timi: "19:00"
 mynd: skalmold
+myndband: https://www.youtube.com/embed/RKqr2g9Qs58
 ---
 
 Skálmöld er íslensk þungarokkshljómsveit sem stofnuð var árið 2009. Þeir spila þjóðlagaþungarokk.

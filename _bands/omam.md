@@ -1,8 +1,9 @@
 ---
 name: "Of Monsters And Men"
 layout: tviskipt
-timi: ""
+timi: "21:00"
 mynd: omam
+myndband: https://www.youtube.com/embed/NunAl4BRVx8
 ---
 
 Of Monsters And Men er íslensk popp hljómsveit stofnuð 2009. Árið 2010 vann hljómsveitin músíktilraunir og síðan þá hefur hljómsveitin notið miklra vinsælda.
