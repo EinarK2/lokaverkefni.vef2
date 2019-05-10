@@ -6,7 +6,7 @@ mynd: hatari
 myndband: https://www.youtube.com/embed/eVbShUW6QBM
 ---
 
-Hatari er íslensk BDSM iðnaðarteknó hljómsveit (margmiðlunaverkefni) stofnað árið 2015. 
+Hatari er íslensk BDSM iðnaðarteknó hljómsveit (margmiðlunaverkefni) stofnuð árið 2015. 
 
 Margmiðlunarverkefnið var stofnað af Klemens Hannigan, Matthíasi Haraldssyni og Einari Stefánssyni. Komu þeir fyrst fram á Iceland Airwaves árið 2016 og síðan hafa þeir vakt mikla athygli.
 
