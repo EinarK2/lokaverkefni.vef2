@@ -3,6 +3,7 @@ name: "Hatari"
 layout: tviskipt
 timi: "21:00"
 mynd: hatari
+myndband: https://www.youtube.com/embed/eVbShUW6QBM
 ---
 
 Hatari er íslensk BDSM iðnaðarteknó hljómsveit (margmiðlunaverkefni) stofnað árið 2015. 
