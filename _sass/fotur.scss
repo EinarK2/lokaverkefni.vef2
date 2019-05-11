@@ -1,4 +1,23 @@
+$staerd: 90px;
 .fotur{
     max-width: 960px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr $staerd+20;
+    div{
+        p{
+            font-size: 1em;
+        }
+    }
+    div:first-child{
+        text-align: left;
+    }
+    div:nth-child(2){
+        text-align: right;
+    }
+    img{
+        padding-left: 30px;
+        height: $staerd;
+        width: $staerd;
+    }
 }

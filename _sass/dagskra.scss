@@ -3,10 +3,16 @@
     border: 1px solid black;
     tr{
         th{
+            text-align: left;
             font-size: 1.5em;
         }
         th:first-child{
             border-right: 1px solid black;
+        }
+    }
+    tr:first-child{
+        th:first-child{
+            text-align: center;
         }
     }
 }

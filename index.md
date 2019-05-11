@@ -2,4 +2,4 @@
 layout: default
 title: Forsida
 ---
-# Þetta er index síðan
+# Velkominn á heimasíðu Steinsins.
