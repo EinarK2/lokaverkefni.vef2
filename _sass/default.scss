@@ -1,7 +1,11 @@
+$bakgrunnslitur: #29648A;
+$fontlitur: #AAABB8;
 body{
+    color: $fontlitur;
+    background-color: darken($bakgrunnslitur, 10);
     margin: 0 auto;
     header, footer{
-        background-color: gray;
+        background-color: $bakgrunnslitur;
     }
     main{
         max-width: 960px;
@@ -21,10 +25,16 @@ p{
 
 a{
     text-decoration: none;
-    color: black;
+    color: lighten($color: $bakgrunnslitur, $amount: 10);
+}
+a:hover{
+    text-decoration: underline;
 }
 
 .tviskipt{
     display: grid;
-    grid-template-columns: 33% 66%;
+    grid-template-columns: 40% 60%;
+    div:first-child{
+        padding-right: 20px;
+    }
 }

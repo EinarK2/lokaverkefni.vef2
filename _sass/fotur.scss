@@ -9,15 +9,25 @@ $staerd: 90px;
             font-size: 1em;
         }
     }
-    div:first-child{
-        text-align: left;
-    }
-    div:nth-child(2){
-        text-align: right;
-    }
     img{
         padding-left: 30px;
         height: $staerd;
         width: $staerd;
+    }
+    @media screen and (max-width: 550px){
+        grid-template-columns: 1fr 1fr;
+        img{display: none;}
+    }
+    @media screen and (max-width: 440px){
+        text-align: center;
+        display: block;
+    }
+    @media screen and (min-width: 440px){
+        div:first-child{
+            text-align: left;
+        }
+        div:nth-child(2){
+            text-align: right;
+        }
     }
 }
