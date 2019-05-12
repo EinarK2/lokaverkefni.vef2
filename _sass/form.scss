@@ -14,6 +14,14 @@
         }
         padding-bottom: 10px;
     }
+    @media screen and (max-width: 600px){
+        display: block;
+        label{
+            input{
+                width: 95%;
+            }
+        }
+    }
 }
 
 #Nafn{grid-area: i4;}
